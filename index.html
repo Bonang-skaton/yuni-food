@@ -37,13 +37,31 @@
   <!-- Hero Section start -->
    <section class="hero" id="home">
     <main class="content">
-      <h1>Selamat datang di<span>Yuni Frozen</span></h1>
-      <p>Kami menyediakan berbagai kebutuhan makanan fozen anda higienis dan harga bersaing</p>
+    <h1 class="my-profession">Selamat <span id="element"></span></h1>
+      <p>Kami menyediakan berbagai kebutuhan makanan frozen. Higienis,Lezat,Bergizi dengan harga bersaing</p>
       <a href="#" class="cta">Beli Sekarang</a>
     </main>
    </section>
+  <!-- Hero Section end -->
 
-  <!-- Hero Section start -->
+
+  <!-- About section start -->
+  <section id="about" class="about">
+  <h2><span>Tentang</span> Kami</h2>
+
+ <div class="row">
+  <div class="about-img">
+    <img src="img/dapur.png" alt="Tentang Kami">
+  </div>
+  <div class="content">
+    <h3>Kenapa Pilih Produk kami </h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, voluptatibus quibusdam! Error itaque praesentium consequatur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, beatae. Quia, sed adipisci architecto possimus molestias libero eum? Quaerat, veritatis.</p>
+  </div>
+ </div>
+  </section>
+ <!-- About section end   -->
+  
 
   <script>
       feather.replace();
@@ -51,5 +69,20 @@
 
     <!-- js -->
      <script src="js/script.js"></script>
+
+      <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+
+ <script>
+    var typed = new Typed('#element', {
+      strings: [ 'datang di Yuni Frozen', ' Berbelanja'],
+      loop: true,
+      typeSpeed: 75,
+      showCursor: false,
+      backSpeed: 30,
+      backDelay: 2000,
+    });
+  </script>
+
+
 </body>
 </html>
