@@ -22,7 +22,7 @@ body {
   font-family: 'poppins', sans-serif;
   background-color: var(--bg);
   color: #fff;
-    min-height: 15000px;   
+    
 }
 
 /* navbar */
@@ -302,6 +302,44 @@ div.contact-info {
   margin-top: 0.5rem;
   color: #fff;
 
+}
+
+/* footer */
+footer {
+  background-color: var(--primary);
+  text-align: center;
+  padding: 0rem 0;
+  margin-top: 3rem;
+}
+
+footer .socials {
+  padding: 1rem 0;
+ margin-top: 4rem;
+  
+}
+
+footer .socials a {
+  color: #fff;
+  margin: 2rem;
+}
+
+footer .socials a:hover {
+  color: var(--bg);
+}
+
+footer .links {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+footer .links a {
+  color: #ffff;
+  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+}
+footer .credit {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
 }
                                                    /* media queries */
 
