@@ -308,8 +308,8 @@ div.contact-info {
 footer {
   background-color: grey;
   text-align: center;
-  padding: 0rem 0;
-  margin-top: 3rem;
+  padding: 1rem 0 3rem;
+  margin-top: 2rem;
 }
 
 footer .socials {
@@ -320,15 +320,15 @@ footer .socials {
 
 footer .socials a {
   color: #fff;
-  margin: 2rem;
+  margin: 1.5rem;
 }
 
-footer .socials a:hover {
+footer .socials a:hover footer .links a:hover {
   color: var(--bg);
 }
 
 footer .links {
-  margin-bottom: 2rem;
+  margin-bottom: 1,4rem;
   margin-top: 1rem;
   
 }
@@ -338,15 +338,12 @@ footer .links a {
   padding: 0.5rem 1rem;
   margin-top: 2rem;
 }
-footer .credit {
-  font-size: 1.5rem;
-  padding-top: -1rem;
+footer .credit a {
+  color: #b9372c;
+  font-weight: 700;
 }
 
-a {
-  color: rgb(212, 18, 18);
-  margin-bottom: 1rem;
-}
+
                                                    /* media queries */
 
 /* media queries laptop */
