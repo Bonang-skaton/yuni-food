@@ -306,7 +306,7 @@ div.contact-info {
 
 /* footer */
 footer {
-  background-color: var(--primary);
+  background-color: grey;
   text-align: center;
   padding: 0rem 0;
   margin-top: 3rem;
@@ -330,6 +330,7 @@ footer .socials a:hover {
 footer .links {
   margin-bottom: 2rem;
   margin-top: 1rem;
+  
 }
 
 footer .links a {
@@ -340,6 +341,11 @@ footer .links a {
 footer .credit {
   font-size: 1.5rem;
   padding-top: -1rem;
+}
+
+a {
+  color: rgb(212, 18, 18);
+  margin-bottom: 1rem;
 }
                                                    /* media queries */
 
@@ -432,5 +438,6 @@ footer .credit {
   html {
     font-size: 55%;
   }
+  
 }
 /* 49:12 */
